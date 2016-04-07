@@ -6,6 +6,6 @@ This is a backend application entirely made in PHP and it communicates with a bo
 
 The bot is responsible for receiving messages from Telegram's users while our TalktechBot gets those messages through a long-polling approach.
 
-TalktechBot was intended to sell pizzas to customers through a chat interface. It is capable of receiving orders, opening shopping carts, consulting databases, offering add-ons, checkouting orders through etc. Everything by option buttons available in Telegram's interface.
+TalktechBot was intended to sell pizzas to customers through a chat interface. It is capable of receiving orders, opening shopping carts, consulting databases, offering add-ons, checkouting orders etc. Everything by option buttons available in Telegram's interface.
 
 It has a human-message-to-operation-code-translator class which were responsible for translating human messages containing known keywords into operation codes in order to ease the application decision taking.
