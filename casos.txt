@@ -1,0 +1,93 @@
+Keywords commands:
+
+Operations:
+
+@botFood = Analisa os dados atuais de compras e manda uma mensagem ao usuário, oferecendo uma pizza;
+1) O cliente chama o bot para pedir uma pizza;
+2) O bot chama o cliente para exibir uma promocao de pizza;
+3) O bot oferece um produto para o cliente baseado em suas escolhas e padroes de pedidos.
+4) O cliente agenda um pedido de pizza para um outro dia.
+
+--------------- // ---------------
+
+1) O cliente chama o bot para pedir uma pizza:
+
+/start
+@Olá Cliente! Gostaria de pedir uma pizza Portuguesa? //Sugestão segundo as escolhas do cliente.
+=Ola! Quero uma pizza
+@Olá Cliente! Gostaria de pedir uma pizza Portuguesa? //Sugestão segundo as escolhas do cliente.
+   1 Sim
+   2 Nao
+=2 Nao
+@Gostaria de uma Calabresa? //Sugestão mais pedida no horario.
+   1 Sim
+   2 Nao
+=2 Nao
+@Gostaria de uma Quatro Queijos? //Sugestão mais pedida na regiao do cliente.
+   1 Sim
+   2 Nao
+=1
+// Processo de aquisicao da pizza
+
+--------------- // ---------------
+
+2) O bot chama o cliente para exibir uma promocao:
+
+@Gostaria de uma pizza de Calabresa? Está em promoção na Pizzaria Bonna próxima a sua casa!
+   1 Sim
+   2 Nao
+=1
+// Processo de aquisicao da pizza
+=2 Nao
+@Gostaria de outro sabor de pizza?
+   1 Sim
+   2 Nao
+=2 Nao
+@Gostaria de algum outro produto?
+   1 Sim
+   2 Nao
+=2 Nao
+@Posso te chamar mais tarde para um outro pedido?
+   1 Sim
+   2 Nao
+=2 Nao
+@Tudo bem! Estou sempre a disposição! Obrigado pelo contato!
+
+--------------- // ---------------
+
+3) O bot oferece um produto para o cliente baseado em suas escolhas e padroes de pedidos.
+
+@Olá Cliente! Gostaria de uma pizza de Mussarela? //Cliente sempre pede a pizza na quarta as 9:30
+   1 Sim
+   2 Nao
+=1
+// Processo de aquisicao da pizza...
+=2 Nao
+@Gostaria de outro sabor de pizza?
+   1 Sim
+   2 Nao
+=2 Nao
+@Gostaria de algum outro produto?
+   1 Sim
+   2 Nao
+=2 Nao
+@Posso te chamar mais tarde para um outro pedido?
+   1 Sim
+   2 Nao
+=2 Nao
+@Tudo bem! Estou sempre a disposição! Obrigado pelo contato!
+
+--------------- // ---------------
+
+4) O cliente agenda um pedido de pizza para um outro dia.
+
+=Pizza Quarta
+@Ok Recebido.
+
+// Data da solicitação
+@Olá Cliente! Você solicitou um pedido de pizza para hoje!
+Por favor, confirme seu pedido abaixo: //Cliente sempre pede essa
+   1 Muito mais pedida
+   2 Mais pedida
+   3 Pedir outra
+// Processo de aquisicao da pizza...

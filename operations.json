@@ -1,0 +1,46 @@
+[
+	{
+		"operation": "HELLO",
+		"keywords": ["ola","oi"]
+	},
+	{
+		"operation": "BUY",
+		"keywords": ["quero","comprar"]
+	},
+	{
+		"operation": "REMIND",
+		"keywords": ["segunda","terça","quarta","quinta","sexta","sabado","domingo"]
+	},
+	{
+		"operation": "PRODUCT",
+		"keywords": ["pizza","lanche"]
+	},
+	{
+		"operation": "FLAVOR",
+		"keywords": ["calabresa","mussarela","portuguesa","baiana","quatro queijos","marguerita","peito de peru"]
+	},
+	{
+		"operation": "SIZE",
+		"keywords": ["brotinho", "pequena", "media", "grande", "familia"]
+	},
+	{
+		"operation": "LOCATION",
+		"keywords": ["rua","avenida","travessa","av","alameda"]
+	},
+	{
+		"operation": "PAYMENT",
+		"keywords": ["cartao", "dinheiro"]
+	},
+	{
+		"operation": "END",
+		"keywords": []
+	},
+	{
+		"operation": "CONFIRM",
+		"keywords": ["sim", "ok"]
+	},
+	{
+		"operation": "CANCEL",
+		"keywords": ["nao","anular","cancelar","suspender"]
+	}
+]

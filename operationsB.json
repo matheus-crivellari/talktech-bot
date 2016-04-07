@@ -1,0 +1,124 @@
+[
+	{
+		"operation": "HELLO",
+		"keywords": ["ola","oi"]
+	},
+	{
+		"operation": "BUY",
+		"keywords": ["quero","comprar","pizza"]
+	},
+	{
+		"operation": "PRODUCT",
+		"keywords": ["pizza","lanche"]
+	},
+	{
+		"operation": "FLAVOR",
+		"keywords": [
+						"calabresa",
+						"calabersa",
+						"calaberesa",
+						"calarbesa",
+						"calabreza",
+						"calabressa",
+						"cala",
+						"bresa",
+						"klabresa",
+
+						"mussarela",
+						"mossarela",
+						"musarela",
+						"muzarela",
+						"mosarela",
+						"mozarela",
+						"mussa",
+						"mussarla",
+						"mussalera",
+
+						"portuguesa",
+						"portugesa",
+						"portguesa",
+						"potruguesa",
+						"portuguessa",
+						"portugueza",
+						"portugueça",
+						"portuga",
+
+						"baiana",
+						"bahiana",
+						"baihana",
+						"bhaiana",
+						"baina",
+						"baian",
+
+						"quatro queijos",
+						"quatro keijos",
+						"quatro quejios",
+						"quatro kejios",
+						"4 queijos",
+						"4 keijos",
+						"4 q",
+						"4 quejios",
+						"4 kejios",
+						"4 quejo",
+						"4 kejo",
+						"quatro quejo",
+						"quatro kejo",
+						"quatro queju",
+						"quatro keju",
+						"4 queju",
+						"4 keju",
+
+						"marguerita",
+						"marguertia",
+						"margureita",
+						"margeurita",
+						"maguerita",
+						"marguerida",
+						"margarita",
+						"magarita",
+						"margarida",
+						"magarida",
+
+						"peito de peru",
+						"peito de preru",
+						"petio de peru",
+						"peito peru",
+						"peito preru",
+						"petio peru",
+						"peru",
+						"preru",
+						"peito",
+
+						"americana"
+						"amerciana"
+						"marciana"
+						"americanas"
+						"amreicana"
+						"american"
+					]
+	},
+	{
+		"operation": "SIZE",
+		"keywords": ["brotinho", "pequena", "media", "grande", "familia"]
+	},
+	{
+		"operation": "LOCATION",
+		"keywords": []
+	},
+	{
+		"operation": "PAYMENT",
+		"keywords": ["cartao", "dinheiro"]
+	},
+	{
+		"operation": "END",
+		"keywords": []
+	},
+	{
+		"operation": "CONFIRM",
+		"keywords": ["sim", "ok"]
+	},
+	{
+		"operation": "CANCEL",
+		"keywords": ["nao", "nao quero"]
+	}
+]
