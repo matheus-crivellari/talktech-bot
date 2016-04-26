@@ -3,7 +3,7 @@ require('vendor/autoload.php');
 require_once('Costumer.php');
 require_once('Checkout.php');
 
-$telegram = new Telegram\Bot\Api('151568898:AAE9rKOyB6vaxQOUDmnSGlSJNKdMRijV18w');
+$telegram = new Telegram\Bot\Api('token_here');
 $telegram->setConnectTimeOut(30); $last_offset = 0; $last_update;
 
 
